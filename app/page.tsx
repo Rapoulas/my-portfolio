@@ -1,20 +1,18 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col font-sans bg-black">
         
-      <header className="w-full border-b border-zinc-800 bg-black">
+      <header className="w-full bg-black">
         <div className="font-sans h-16 flex items-center justify-center sm:justify-end bg-black">
-          <nav className="flex gap-6 text-zinc-400 sm:mr-8">
-            <a href="#about" className="hover:text-white transition-colors">
-              About
+          <nav className="flex gap-12 text-zinc-400 sm:mr-16">
+            <a href="https://github.com/rapoulas" className="hover:text-black hover:bg-white rounded-md py-2 px-4 font-bold transition-colors">
+              Github
             </a>
-            <a href="#projects" className="hover:text-white transition-colors">
-              Projects
+            <a href="https://www.linkedin.com/in/rafael-cesar-54220634b/" className="hover:text-black hover:bg-white rounded-md py-2 px-4 font-bold transition-colors">
+              LinkedIn
             </a>
-            <a href="#contact" className="hover:text-white transition-colors">
-              Contact
+            <a href="https://drive.usercontent.google.com/u/0/uc?id=1uoyM4n1XGXVZ7JmHT_8-DzdSUQ06nVIC&export=download" className="hover:text-black hover:bg-white rounded-md py-2 px-4 font-bold transition-colors">
+              CV
             </a>
           </nav>
         </div>
