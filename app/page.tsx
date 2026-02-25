@@ -17,7 +17,7 @@ export default function Home() {
           </nav>
         </div>
       </header>
-      <main className="flex flex-1 items-center justify-start px-100">
+      <main className="flex flex-1 items-start pt-64 justify-start px-100">
         <div className="flex flex-col items-center gap-4 text-center justify-center sm:items-start sm:text-left">
           <div className="p-4">
             <span className="sm:text-3xl text-2xl">
@@ -43,6 +43,14 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <div className="flex text-lg justify-center sm:justify-end sm:text-xl font-medium">
+        <p className="sm:mr-8 sm:mb-5">
+          <span className="text-green-400">rapoulas@rapoulas-computer</span>
+          :
+          <span className="text-blue-500">~</span>
+          $ touch coffee.txt
+        </p> 
+      </div>
     </div>
   );
 }
