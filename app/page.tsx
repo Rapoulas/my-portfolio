@@ -11,7 +11,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/rafael-cesar-54220634b/" className="hover:text-black hover:bg-white rounded-md py-2 px-4 font-bold transition-colors">
               LinkedIn
             </a>
-            <a href="https://drive.usercontent.google.com/u/0/uc?id=1uoyM4n1XGXVZ7JmHT_8-DzdSUQ06nVIC&export=download" className="hover:text-black hover:bg-white rounded-md py-2 px-4 font-bold transition-colors">
+            <a href="https://drive.usercontent.google.com/u/0/uc?id=16WbXlz4OUn0vuOVjQusvqm_K6raYtC1W&export=download" className="hover:text-black hover:bg-white rounded-md py-2 px-4 font-bold transition-colors">
               CV
             </a>
           </nav>
